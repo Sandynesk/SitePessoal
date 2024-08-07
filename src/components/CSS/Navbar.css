@@ -1,0 +1,103 @@
+/* Define o estilo da navbar */
+.navbar {
+    background-color: #1a0d2c; /* Cor de fundo roxo */
+    padding: 10px 20px; /* Espaçamento interno */
+    color: #fff; /* Cor do texto branco */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Define o estilo do contêiner dentro da navbar */
+.container {
+    width: 100%;
+    max-width: 1250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+/* Estilo da marca da navbar */
+.navbar-brand {
+    color: #fff;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 23px;
+
+}
+
+/* Estilo do botão de alternância */
+.navbar-toggler {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Estilo dos itens da navbar */
+.navbar-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    
+}
+
+/* Estilo dos itens da lista */
+.navbar-nav .nav-item {
+    margin: 0 15px;
+    
+}
+
+
+
+/* Estilo dos links da navbar */
+.navbar-nav .nav-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* Estilo do link ativo */
+.navbar-nav .nav-link.active {
+    font-weight: 200;
+
+}
+
+/* Estilo do texto da navbar */
+.navbar-text {
+    color: #fff;
+    margin-left: 20px;
+    font-weight: 300;
+    font-size: 22px;
+}
+
+/* Exibe a barra de navegação quando a classe 'show' é adicionada */
+.navbar-collapse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilo para quando a navbar está aberta */
+.navbar-collapse.show {
+    display: block;
+}
+
+/* Estilo do contêiner da navbar */
+.container-fluid {
+    background-color: #25133f;
+    height: 100px;
+}
+
+.nav-link{
+ 
+    font-size: 20px;
+  
+}
+
