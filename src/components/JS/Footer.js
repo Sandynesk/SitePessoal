@@ -111,13 +111,13 @@ export default function Footer() {
             Angular</a>
             </p>
             <p className="mb-4">
-            <a className="text-neutral-600 dark:text-neutral-200" href="#">React</a> 
+            <a className="text-neutral-600 dark:text-neutral-200" href="https://reactjs.org">React</a>  // Linha 114 - Página oficial do React
             </p>
             <p className="mb-4">
-            <a className="text-neutral-600 dark:text-neutral-200" href="#">Vue</a>
+            <a className="text-neutral-600 dark:text-neutral-200" href="https://vuejs.org">Vue</a>  // Linha 118 - Página oficial do Vue.js
             </p>
             <p>
-            <a className="text-neutral-600 dark:text-neutral-200" href="#">Laravel</a> 
+            <a className="text-neutral-600 dark:text-neutral-200" href="https://laravel.com">Laravel</a>  // Linha 122 - Página oficial do Laravel
             </p>
           </div>
           {/* <!-- Useful links section --> */}
