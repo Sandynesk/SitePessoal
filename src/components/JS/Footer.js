@@ -8,10 +8,10 @@ export default function Footer() {
       <div
         className="flex items-center justify-center border-b-2 border-neutral-200 p-6 dark:border-neutral-500 lg:justify-between">
         <div className="mr-12 hidden lg:block">
-          <span>Get connected with us on social networks:</span>
+          <span>Muito obrigado pela sua atenção!</span>
         </div>
         {/* <!-- Social network icons container --> */}
-        <div className="flex justify-center">
+   
         <a href="https://www.facebook.com" className="mr-6 text-neutral-600 dark:text-neutral-200">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -75,7 +75,7 @@ export default function Footer() {
             </svg>
           </a>
         </div>
-      </div>
+      
 
       {/* <!-- Main container div: holds the entire content of the footer, including four sections (TW Elements, Products, Useful links, and Contact), with responsive styling and appropriate padding/margins. --> */}
       <div className="mx-6 py-10 text-center md:text-left">
