@@ -111,16 +111,13 @@ export default function Footer() {
             Angular</a>
             </p>
             <p className="mb-4">
-              <a className="text-neutral-600 dark:text-neutral-200"
-              >React</a>
+            <a className="text-neutral-600 dark:text-neutral-200" href="#">React</a> 
             </p>
             <p className="mb-4">
-              <a className="text-neutral-600 dark:text-neutral-200"
-              >Vue</a>
+            <a className="text-neutral-600 dark:text-neutral-200" href="#">Vue</a>
             </p>
             <p>
-              <a className="text-neutral-600 dark:text-neutral-200"
-              >Laravel</a>
+            <a className="text-neutral-600 dark:text-neutral-200" href="#">Laravel</a> 
             </p>
           </div>
           {/* <!-- Useful links section --> */}
